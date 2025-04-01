@@ -1,0 +1,22 @@
+{
+  "name": "colords",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "storybook": "pnpm --filter @design-system/storybook storybook"
+  },
+  "engines": {
+    "node": ">=22.14.0",
+    "pnpm": ">=10.7.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.16"
+  }
+}
