@@ -17,6 +17,7 @@ export const theming = (Story, args) => {
       className={isChromatic() ? "is-chromatic" : ""}
       style={{
         display: "flex",
+        boxSizing: "border-box",
         minWidth: "100%",
         minHeight: "100%",
         padding: "16px",
