@@ -15,7 +15,7 @@ import { objectKeys } from "@appsmith/utils";
  */
 const meta: Meta<typeof IconButton> = {
   component: IconButton,
-  title: "WDS/Widgets/Icon Button",
+  title: "Design System/Widgets/Icon Button",
 };
 
 export default meta;

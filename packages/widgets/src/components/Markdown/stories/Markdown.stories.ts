@@ -2,7 +2,7 @@ import { Markdown } from "@appsmith/wds";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta: Meta<typeof Markdown> = {
-  title: "WDS/Widgets/Markdown",
+  title: "Design System/Widgets/Markdown",
   component: Markdown,
 };
 

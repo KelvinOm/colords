@@ -7,7 +7,7 @@ import type { Meta, StoryObj } from "@storybook/react";
  */
 const meta: Meta<typeof Tooltip> = {
   component: Tooltip,
-  title: "WDS/Widgets/Tooltip",
+  title: "Design System/Widgets/Tooltip",
   args: {
     tooltip: "My tooltip",
     children: <Button>My trigger</Button>,

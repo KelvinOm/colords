@@ -1,16 +1,6 @@
 import * as React from "react";
-import styled from "styled-components";
 import type { UseThemeProps } from "@appsmith/wds-theming";
 import { ThemeProvider, useTheme } from "@appsmith/wds-theming";
-
-const StyledThemeProvider = styled.div`
-  display: inline-flex;
-  min-width: 100%;
-  min-height: 100%;
-  padding: 36px;
-  flex-direction: column;
-  align-items: center;
-`;
 
 interface StoryThemeProviderProps {
   children: React.ReactNode;
@@ -24,10 +14,16 @@ export const StoryThemeProvider = ({
   const { theme: currentTheme } = useTheme(theme);
 
   return (
-    <StyledThemeProvider>
-      <ThemeProvider theme={currentTheme}>
-        <div style={{ maxWidth: "1000px", width: "100%" }}>{children}</div>
-      </ThemeProvider>
-    </StyledThemeProvider>
+    <ThemeProvider
+      style={{
+        display: "flex",
+        width: "100%",
+        padding: "36px",
+        justifyContent: "center",
+      }}
+      theme={currentTheme}
+    >
+      <div style={{ maxWidth: "1000px", width: "100%" }}>{children}</div>
+    </ThemeProvider>
   );
 };

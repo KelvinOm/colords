@@ -15,7 +15,7 @@ const items = Array.from({ length: 50 }, (_, i) => ({
  */
 const meta: Meta<typeof MultiSelect> = {
   component: MultiSelect,
-  title: "WDS/Widgets/Multi Select",
+  title: "Design System/Widgets/Multi Select",
   args: {
     label: "Label",
     items,

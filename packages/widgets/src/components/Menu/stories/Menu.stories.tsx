@@ -15,7 +15,7 @@ import type { Meta, StoryObj } from "@storybook/react";
  */
 const meta: Meta<typeof Menu> = {
   component: Menu,
-  title: "WDS/Widgets/Menu",
+  title: "Design System/Widgets/Menu",
 };
 
 export default meta;

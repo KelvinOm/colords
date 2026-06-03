@@ -8,7 +8,7 @@ const items = [
 ];
 
 const meta: Meta<typeof ToggleGroup> = {
-  title: "WDS/Widgets/Toggle Group",
+  title: "Design System/Widgets/Toggle Group",
   component: ToggleGroup,
   tags: ["autodocs"],
   args: {

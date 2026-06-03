@@ -7,7 +7,7 @@ import { ControlledStateSidebar } from "./ControlledStateSidebar";
 
 const meta: Meta<typeof Sidebar> = {
   component: Sidebar,
-  title: "WDS/Widgets/Sidebar",
+  title: "Design System/Widgets/Sidebar",
   parameters: {
     layout: "fullscreen",
     docs: {

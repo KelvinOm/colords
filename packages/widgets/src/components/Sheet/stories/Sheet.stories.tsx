@@ -4,7 +4,7 @@ import { Sheet } from "../index";
 import { SimpleSheet } from "./SimpleSheet";
 
 const meta: Meta<typeof Sheet> = {
-  title: "WDS/Widgets/Sheet",
+  title: "Design System/Widgets/Sheet",
   component: Sheet,
   render: (args) => <SimpleSheet {...args} />,
 };

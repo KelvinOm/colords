@@ -7,7 +7,7 @@ import { Switch, Flex } from "@appsmith/wds";
  */
 const meta: Meta<typeof Switch> = {
   component: Switch,
-  title: "WDS/Widgets/Switch",
+  title: "Design System/Widgets/Switch",
 };
 
 export default meta;

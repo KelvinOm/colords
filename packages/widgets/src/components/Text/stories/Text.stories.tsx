@@ -11,7 +11,7 @@ import { Text, Flex, COLORS } from "@appsmith/wds";
  */
 const meta: Meta<typeof Text> = {
   component: Text,
-  title: "WDS/Widgets/Text",
+  title: "Design System/Widgets/Text",
 };
 
 export default meta;

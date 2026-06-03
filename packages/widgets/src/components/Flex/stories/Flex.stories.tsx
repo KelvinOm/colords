@@ -11,7 +11,7 @@ import styles from "./styles.module.css";
  */
 const meta: Meta<typeof Flex> = {
   component: Flex,
-  title: "WDS/Widgets/Flex",
+  title: "Design System/Widgets/Flex",
 };
 
 export default meta;

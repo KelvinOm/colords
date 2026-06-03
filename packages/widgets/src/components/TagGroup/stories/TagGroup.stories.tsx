@@ -8,7 +8,7 @@ import type { TagGroupProps } from "../src/TagGroup";
  */
 const meta: Meta<typeof TagGroup> = {
   component: TagGroup,
-  title: "WDS/Widgets/Tag Group",
+  title: "Design System/Widgets/Tag Group",
   subcomponents: {
     Tag,
   },

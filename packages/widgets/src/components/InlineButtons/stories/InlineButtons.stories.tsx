@@ -21,7 +21,7 @@ import {
  */
 const meta: Meta<typeof InlineButtons> = {
   component: InlineButtons,
-  title: "WDS/Widgets/Inline Buttons",
+  title: "Design System/Widgets/Inline Buttons",
 };
 
 export default meta;

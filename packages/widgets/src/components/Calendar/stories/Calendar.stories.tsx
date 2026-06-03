@@ -4,7 +4,7 @@ import { parseDate } from "@internationalized/date";
 
 const meta: Meta<typeof Calendar> = {
   component: Calendar,
-  title: "WDS/Widgets/Calendar",
+  title: "Design System/Widgets/Calendar",
   parameters: {
     docs: {
       description: {

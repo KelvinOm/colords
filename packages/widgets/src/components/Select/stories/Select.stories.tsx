@@ -16,7 +16,7 @@ import { selectItems, selectItemsWithIcons } from "./selectData";
  */
 const meta: Meta<typeof Select> = {
   component: Select,
-  title: "WDS/Widgets/Select",
+  title: "Design System/Widgets/Select",
   args: {
     children: selectItems.map((item) => (
       <ListBoxItem key={item.id} textValue={item.label}>
