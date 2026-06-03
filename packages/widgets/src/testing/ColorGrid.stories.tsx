@@ -5,6 +5,12 @@ import { ColorGrid } from "./ColorGrid";
 const meta: Meta<typeof ColorGrid> = {
   component: ColorGrid,
   title: "Design System/Testing/Color Grid",
+  // Render as a full-page canvas instead of the contained autodocs page,
+  // which wraps the story in padded blocks that overflow horizontally.
+  tags: ["!autodocs"],
+  parameters: {
+    layout: "fullscreen",
+  },
   args: {
     source: "oklch",
     size: "small",
