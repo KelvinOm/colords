@@ -13,7 +13,7 @@
     height: var(--sizing-5);
     background-color: var(--color-bd-neutral);
     border-radius: var(--knob-size);
-    color: var(--color-bg);
+    color: var(--color-fg-on-accent);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -66,12 +66,12 @@
  */
   &[data-selected="true"] [data-icon] {
     background-color: var(--color-bg-accent);
-    color: var(--color-bg);
+    color: var(--color-fg-on-accent);
   }
 
   &[data-hovered][data-selected="true"]:not([data-disabled]) [data-icon] {
     background-color: var(--color-bg-accent-hover);
-    color: var(--color-bg);
+    color: var(--color-fg-on-accent);
   }
 
   &[data-selected="true"] [data-icon]::after {
