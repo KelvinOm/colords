@@ -17,9 +17,8 @@ export default create({
   inputBorderRadius: 0,
 
   base: "light",
-  brandTitle: "Appsmith Design System",
-  brandUrl: "https://www.appsmith.com/",
-  brandImage:
-    "https://global-uploads.webflow.com/61531b23c347e4fbd4a84209/61531b23c347e41e24a8423e_Logo.svg",
-  brandTarget: "_blank",
+  brandTitle: "WDS — Widget Design System",
+  brandUrl: "https://kelvinom.github.io/colords",
+  brandImage: "./wds-logo.svg",
+  brandTarget: "_self",
 });

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 132 28">
+  <style>
+    .mark { fill: #542bd1; }
+    .word { fill: #191919; }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: #734bee; }
+      .word { fill: #fff; }
+    }
+  </style>
+  <path class="mark" d="M0 0h28v28H0z" />
+  <path fill="#fff" d="M5 22v-3.5h18V22H5Z" />
+  <text class="word" x="40" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="0.5">WDS</text>
+</svg>

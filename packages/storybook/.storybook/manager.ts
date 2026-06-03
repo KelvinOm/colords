@@ -1,8 +1,8 @@
 import { addons } from "@storybook/manager-api";
-import appsmithTheme from "./appsmith-theme";
+import wdsTheme from "./wds-theme";
 
 addons.setConfig({
-  theme: appsmithTheme,
+  theme: wdsTheme,
   selectedPanel: "ds-test",
   enableShortcuts: false,
   sidebar: {
