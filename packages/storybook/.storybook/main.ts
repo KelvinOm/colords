@@ -5,13 +5,10 @@ const config: StorybookConfig = {
 
   addons: [
     "@chromatic-com/storybook",
-    "@storybook/addon-a11y",
     "@storybook/addon-viewport",
     "@storybook/addon-docs",
     "@storybook/addon-controls",
     "@storybook/addon-toolbars",
-    "@storybook/addon-measure",
-    "@storybook/addon-outline",
     "@storybook/preset-create-react-app",
     "./addons/theming/manager.ts",
   ],
